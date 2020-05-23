@@ -1,0 +1,18 @@
+.photo-grid {
+  margin: 0 0 92px -100px;
+	display: grid;
+	width: 1184px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+
+.photo-grid__item {
+  /* transition-duration: 1s; */
+}
+
+/* .photo-grid__item:hover{
+  transform: scale(1.1);
+  border-radius: 40px;
+  box-shadow: 30px 30px 25px rgb(48, 47, 47);
+  z-index: 1;
+} */

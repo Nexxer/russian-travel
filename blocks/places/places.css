@@ -1,0 +1,49 @@
+.places {
+  /* border: 1px solid green; */
+}
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px 40px;
+  /* border: 1px solid blue; */
+  margin: 0 0 80px;
+}
+
+.place__title {
+  margin: 0;
+  width: 50%;
+  color: #fff;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__image {
+  width: 100%;
+}
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__website__url-heading {
+  margin: 0 0 12px;
+  color: #aaa;
+}
+
+.place__website__link {
+  margin: 0;
+  color: #fff;
+}
+
+.place_text {
+}
+.place__paragraph {
+  margin: 0 0 24px;
+  color: #fff;
+  width: 484px;
+  font-size: 18px;
+  line-height: 30px;
+}

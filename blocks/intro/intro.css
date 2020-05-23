@@ -1,0 +1,31 @@
+.intro {
+	/* border: 1px solid greenyellow; */
+	margin-bottom: 92px;
+}
+
+.intro__title {
+	margin: 0 0 40px;
+	color: #fff;
+	width: 690px;
+	font-size: 54px;
+	line-height: 58px;
+}
+
+.intro__text {
+	color: #fff;
+	margin: 0 0 6px;
+	width: 690px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.intro__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #fff;
+	width: 690px;
+	height: 90px;
+	font-size: 12px;
+	line-height: 18px;
+}

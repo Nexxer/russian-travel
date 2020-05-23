@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer__links {
+  color: #fff;
+  display: flex;
+  list-style: none;
+  margin: 0 48px;
+  padding: 0px 0px 0px 0px;
+}
+
+.footer__link {
+  color: #fff;
+  padding: 0;
+  margin: 0 18px 0 0;
+  text-decoration: none;
+}
+
+.footer__link:hover{
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  margin: 0;
+  color: #fff;
+}
