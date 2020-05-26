@@ -1,16 +1,31 @@
+@import url("./__logo/header__logo.css");
+@import url("./__lang-link/header__lang-link.css");
+
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	margin: 28px 48px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 28px 0 56px;
+  padding: 0 48px;
+  max-height: 52px;
 }
 
-.header__logo {
+@media screen and (max-width: 1279px) {
+  .header {
+    margin-bottom: 48px;
+  }
 }
 
-.header__lang-link {
-	color: #fff;
-	font-size: 24px;
-line-height: 28px;
-margin-left: 18px;
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 16px;
+    margin: 16px 0 48px;
+    max-height: 42px;
+  }
 }
