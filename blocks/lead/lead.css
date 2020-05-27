@@ -2,6 +2,7 @@
 @import url("./__subtitle/lead__subtitle.css");
 @import url("./__caprion/lead__caprion.css");
 @import url("./__img/lead__img.css");
+@import url("./__field/lead__img__field.css");
 
 .lead {
   margin: 0 auto 92px;

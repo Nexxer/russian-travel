@@ -1,8 +1,11 @@
+@import url("./_digits/intro__list_digits.css");
+
 .intro__list {
   padding: 0;
   margin: 0;
   list-style: none;
   color: #fff;
   font-size: 12px;
+  font-weight: bold;
   line-height: 18px;
 }
