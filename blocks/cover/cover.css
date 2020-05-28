@@ -3,7 +3,7 @@
 @import url("./__title/cover__title.css");
 
 .cover {
-  margin: 0 0 92px;
+  margin: 0 48px 92px;
   padding: 0 48px;
   position: relative;
   background-image: url("./../../image/Baykal_cover.jpg");
@@ -17,6 +17,8 @@
   .cover {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
