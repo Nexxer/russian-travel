@@ -1,9 +1,11 @@
 .cover__overlay {
-  position: relative;
-  background-image: url("../img/Baykal_cover.jpg");
   background-size: cover;
   background-position: 100%;
-  min-height: 740px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,22 +27,4 @@
 .cover__overlay:hover:after {
   content: "";
   opacity: 0.8;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover__overlay {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__overlay {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__overlay {
-    min-height: 200px;
-  }
 }
