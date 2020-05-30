@@ -1,7 +1,7 @@
 .cover__overlay {
   text-decoration: none;
   background: url("./../../../image/Baykal_cover.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -27,18 +27,6 @@
 
 @media screen and (max-width: 1279px) {
   .cover__overlay {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__overlay {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__overlay {
-    min-height: 200px;
+    min-height: 62.5vw;
   }
 }
