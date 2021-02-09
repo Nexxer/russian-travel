@@ -1,7 +1,7 @@
 # Проект "Путешествие по России"
 
 ---
-### <a href="https://nexxer.github.io/russian-travel//">Ссыкла на проект</a>
+### <a href="https://nexxer.github.io/russian-travel/">Ссыкла на проект</a>
 ---
 
 ## Описание проекта:
